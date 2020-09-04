@@ -1,0 +1,79 @@
+.detail .right .all {
+	clear: both;
+	overflow: hidden;
+	margin-left: -20px;
+}
+
+.detail .right .all li {
+	float: left;
+	width: 31%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.detail .right .all li a {
+	text-decoration: none;
+}
+
+.detail .right .all li .img{
+	text-align: center;
+	border: 1px solid #E3E3E3;
+}
+
+.detail .right .all li img {
+	max-width: 100%;
+	height: 200px;
+}
+
+.detail .right .all li p {
+	color: #666;
+	line-height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	padding-left: 40px;
+	background: url(../images/icon16.png)no-repeat 10px center;
+}
+
+.detail .right .all li:hover p {
+	color: #2556a5;
+}
+
+.detail .right .all li:hover .img{
+	border: 1px solid #2556a5;
+}
+
+.detail .right .text .p1 {
+	text-align: center;
+	font-size: 24px;
+	color: #666;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.detail .right .text .p2 {
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+}
+
+.detail .right .text img {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.detail .link2 {
+	clear: both;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.detail .link2 a {
+	font-size: 16px;
+	color: #888888;
+}
+
+.detail .link2 a:nth-child(2) {
+	float: right;
+}

@@ -1,0 +1,142 @@
+.detail .right .text p {
+	font-size: 14px;
+	line-height: 2.0;
+	color: #666666;
+}
+
+.detail .right .text .p1 {
+	font-size: 19px;
+	font-weight: bold;
+	color: #2655a7;
+	margin-bottom: 0px;
+}
+
+.detail .right .text img{
+	max-width: 100%;
+}
+
+.detail .right .feedback .input {
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	height: 50px;
+	width: 45.5%;
+	margin-left: 3%;
+	color: #666666;
+	font-size: 14px;
+	background: #FFFFFF;
+	margin-top: 10px;
+}
+
+.detail .right .feedback .form {
+	height: 35px;
+	width: 77%;
+	margin-top: 7px;
+	border: none;
+	outline: none;
+	padding-top: 0;
+}
+
+.detail .right .feedback textarea {
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 97%;
+	margin-left: 1.5%;
+	color: #666666;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-left: 10px;
+	outline: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #666666;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #666666;
+}
+
+.detail .right .feedback .btn1 {
+	width: 97%;
+	margin-left: 1.5%;
+	height: 40px;
+	margin-top: 20px;
+	border: none;
+	background: #2556a5;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.iw_poi_title {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	color: #666666;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+
+.allmap {
+	width: 100%;
+	padding: 0;
+	height: 410px;
+	margin-top: 35px;
+}
+
+.detail .right .map {
+	clear: both;
+	overflow: hidden;
+}
+
+.detail .right .map .erweima{
+	clear: both;
+	overflow: hidden;
+}
+
+.detail .right .map .erweima img{
+	float: left;
+	width: 16%;
+}
+
+.detail .right .map .erweima .text{
+	float: right;
+	width: 82%;
+}
+
+.detail .right .map ul li{
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.detail .right .map ul li img{
+	width: 27%;
+	margin-bottom: 10px;
+}
+
+.detail .right .map ul li .p1{
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #666666;
+	font-size: 16px;
+}
+
+.detail .right .map ul li .p2{
+	margin-bottom: 5px;
+	color: #666666;
+}

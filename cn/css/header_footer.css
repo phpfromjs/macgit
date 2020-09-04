@@ -1,0 +1,221 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei", arial;
+}
+
+.container {
+	padding: 0;
+	width: 1160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .top {
+	min-width: 1160px;
+	border-bottom: 1px solid #E3E3E3;
+	clear: both;
+	overflow: hidden;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+header .top .left {
+	float: left;
+	color: #888;
+}
+
+header .top .right {
+	float: right;
+	color: #999999;
+}
+
+header .top .right a{
+	color: #888;
+	margin: 0 3px;
+}
+
+header .bottom {
+	min-width: 1160px;
+	height: 90px;
+	position: relative;
+}
+
+header .bottom .logo {
+	float: left;
+	margin-top: 25px;
+}
+
+header .bottom #nav {
+	width: 43%;
+	float: left;
+	height: 90px;
+	margin-bottom: 0;
+	margin-left: 90px;
+}
+
+header .bottom ul .navlist {
+	float: left;
+	width: 20%;
+	height: 90px;
+	text-align: center;
+}
+
+header .bottom ul .navlist a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+header .bottom ul .navlist a span:nth-child(1) {
+	display: block;
+	font-size: 15px;
+	margin-top: 28px;
+	color: #2556a5;
+}
+
+header .bottom ul .navlist a span:nth-child(2) {
+	display: block;
+	font-size: 12px;
+	color: #9ea6b4;
+}
+
+header .bottom ul .navlist:hover {
+	background: #2556a5;
+}
+
+header .bottom ul .navlist:hover a span:nth-child(1){
+	color: #FFFFFF;
+}
+
+header .bottom ul .navlist:hover a span:nth-child(2){
+	color: #8ab7fd;
+}
+
+header .bottom ul .a1 {
+	background: #2556a5;
+}
+
+header .bottom ul .a1 a span:nth-child(1){
+	color: #FFFFFF;
+}
+
+header .bottom ul .a1 a span:nth-child(2){
+	color: #8ab7fd;
+}
+
+header .bottom .phone{
+	float: right;
+	background: url(../images/icon01.jpg)no-repeat right;
+	height: 39px;
+	padding-right: 45px;
+	text-align: right;
+	margin-top: 26px;
+}
+
+header .bottom .phone .p1{
+	margin-bottom: 0;
+	font-size: 20px;
+	color: #d22131;
+	line-height: 1.1;
+}
+
+header .bottom .phone .p2{
+	margin-bottom: 0;
+	font-size: 12px;
+	color: #716c6c;
+}
+
+.footer {
+	min-width: 1160px;
+	clear: both;
+	overflow: hidden;
+	background: #191919;
+}
+
+.footer .left {
+	float: left;
+}
+
+.footer .left .nav {
+	clear: both;
+	overflow: hidden;
+	margin-top: 55px;
+	margin-left: -25px;
+	line-height: 1.0;
+}
+
+.footer .left .nav a {
+	display: block;
+	float: left;
+	margin-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	color: #c4c3c3;
+	border-right: 1px solid #c4c3c3;
+}
+
+.footer .left .text{
+	margin-top: 30px;
+	color: #b1b1b1;
+}
+
+.footer .left .text p{
+	font-size: 13px;
+}
+
+.footer .right {
+	float: right;
+	margin-top: 55px;
+}
+
+.footer .right img {
+	width: 134px;
+}
+
+.footer .bottom {
+	margin-top: 40px;
+	background: #141414;
+}
+
+.footer .bottom p {
+	color: #b1b1b1;
+	margin-bottom: 0;
+	line-height: 35px;
+	font-size: 12px;
+}
+
+.footer .bottom p a {
+	color: #b1b1b1;
+	margin-left: 15px;
+}
+
+.footer .bottom p a:nth-last-child(1){
+	float: right;
+}
+
+.link{
+	background: #e5e5e5;
+}
+
+.link .container{
+	background: url(../images/icon12.png)no-repeat left center;
+}
+
+.link p{
+	line-height: 45px;
+	margin-left: 55px;
+	margin-bottom: 0;
+}
+
+.link p span{
+	font-size: 15px;
+	color: #0c4da1;
+}
+
+.link p a{
+	color: #555;
+	margin-left: 15px;
+}
